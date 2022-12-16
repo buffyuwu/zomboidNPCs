@@ -1,0 +1,15 @@
+VERSION = 1,
+
+option DnDRules.Criticals
+{
+	type = boolean, default = false,
+	page = BuffysMods, translation = CritSuccess,
+}
+option DnDRules.SkillBalance
+{
+	type = integer, min = 10, max = 30, default = 30,
+	page = BuffysMods, translation = SkillBalance,
+}
+
+
+
